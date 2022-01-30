@@ -1,3 +1,7 @@
+/**
+ *Submitted for verification at BscScan.com on 2022-01-28
+*/
+
 //MetaDoge is the next BSC community driven meme/utility token which has the goal to be the next big moonshot.
 
 //SPDX-License-Identifier: None
@@ -200,7 +204,7 @@ contract MetaDogeV2 is IBEP20, Auth {
     address constant private ZERO = 0x0000000000000000000000000000000000000000;
 
     string private constant _name = "MetaDoge V2";
-    string private constant _symbol = "METADOGE";
+    string private constant _symbol = "METADOGEV2";
     uint8 private constant _decimals = 18;
 
     
@@ -251,7 +255,7 @@ contract MetaDogeV2 is IBEP20, Auth {
     
     address private marketingFeeReceiver = 0x24d530BE76285f1Cc561FfbC16b36A23988D39a1;
     address constant private ethBridgeAndExchange = 0xEB9e99eb20a7Fa8E9D5dE9916CFea60236bC2BcD;
-    address private stakingWallet = 0x5b35B7eC57DD6Ea307ddc7368388E851F61B62d6;
+    address private stakingWallet = 0x609982493a1d1B39B48837C0163d993b7735d638;
 
     IDEXRouter public router;
     address public pair;
